@@ -6,7 +6,7 @@
 
 <template>
   <div class="notification-bell">
-    <i class="bell-icon" @click="toggleDropdown">
+    <i class="bell-icon">
       🔔
       <span v-if="unreadNotifications.length > 0" class="notification-count">{{ unreadNotifications.length }}</span>
     </i>
